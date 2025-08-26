@@ -129,3 +129,4 @@ id_ed25519*
 # Project specific
 # ===============================
 .replit_secrets
+.replit
