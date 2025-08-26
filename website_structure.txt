@@ -1,0 +1,69 @@
+.
+├── app
+│   ├── api
+│   │   ├── auth
+│   │   │   └── register
+│   │   │       └── route.js
+│   │   └── test
+│   │       └── route.js
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.jsx
+│   ├── page.jsx
+│   └── (root)
+│       └── auth
+│           ├── layout.jsx
+│           ├── login
+│           │   └── page.jsx
+│           ├── register
+│           │   └── page.jsx
+│           └── verify-email
+│               └── [token]
+│                   └── page.jsx
+├── components
+│   ├── Application
+│   │   └── ButtonLoading.jsx
+│   └── ui
+│       ├── button.jsx
+│       ├── card.jsx
+│       ├── form.jsx
+│       ├── input.jsx
+│       └── label.jsx
+├── components.json
+├── email
+│   └── emailVerificationLink.js
+├── .env
+├── .env.local
+├── eslint.config.mjs
+├── .gitignore
+├── jsconfig.json
+├── lib
+│   ├── databaseConnection.js
+│   ├── helperFunction.js
+│   ├── sendMail.js
+│   ├── utils.js
+│   └── zodSchema.js
+├── models
+│   └── User.model.js
+├── next.config.mjs
+├── package.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── postcss.config.mjs
+├── public
+│   ├── assets
+│   │   └── images
+│   │       └── logo-black.png
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
+├── README.md
+├── routes
+│   ├── AdminPanelRoute.js
+│   └── WebsiteRoute.js
+├── watch.js
+└── website_structure.txt
+
+22 directories, 45 files
